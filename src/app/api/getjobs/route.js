@@ -1,6 +1,6 @@
 export async function GET(req) {
-  const appID = "cb1d900b";
-  const APIkey = "2441fe8a4f27996897939ead4f660105";
+  const appID = "AppID";
+  const APIkey = "APIKEY";
 
   // Extract search parameters from the URL
   const url = new URL(req.url);
